@@ -1,0 +1,29 @@
+.header {
+    background-color: rgba(115, 0, 75, 0.7);
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    backdrop-filter: blur(10px);
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.logo span {
+    color: rgb(255, 0, 166);
+}
